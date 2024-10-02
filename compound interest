@@ -1,0 +1,21 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <math.h>
+int main() {
+        double compound_interest,principle, rate,Time;
+        printf("enter principle amount:");
+        scanf("%lf",&principle);
+        
+        printf("\nenter Rate:");
+        scanf("%lf",&rate);
+        
+        printf("\nenter number of years:");
+        scanf("%lf",&Time);
+    
+    compound_interest= principle*pow((1+(rate/100)),Time);
+    printf("\ncompound_interest:%.2lfksh", compound_interest);
+    
+    printf("\n\n\n\nTry programiz.pro");
+
+    return 0;
+}
